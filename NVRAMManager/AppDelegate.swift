@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  NVRAMManager
 //
-//  Created by 牛秀元 on 2017/1/23.
-//  Copyright © 2017年 牛秀元. All rights reserved.
+//  Created by yekki on 2017/1/23.
+//  Copyright © 2017年 yekki. All rights reserved.
 //
 
 import Cocoa
@@ -11,17 +11,20 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-    @IBOutlet weak var window: NSWindow!
+    var mainWindowController: MainWindowController?
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        
+        let mainWindowController = MainWindowController()
+        
+        mainWindowController.showWindow(self)
+        
+        self.mainWindowController = mainWindowController
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
-
-
 }
 

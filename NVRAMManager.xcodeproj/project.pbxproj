@@ -10,6 +10,9 @@
 		8D0D17021E35EFA40004738E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D17011E35EFA40004738E /* AppDelegate.swift */; };
 		8D0D17041E35EFA40004738E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0D17031E35EFA40004738E /* Assets.xcassets */; };
 		8D0D17071E35EFA40004738E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0D17051E35EFA40004738E /* MainMenu.xib */; };
+		8D0D170F1E35F10E0004738E /* NVRAMController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D170E1E35F10E0004738E /* NVRAMController.swift */; };
+		8DBB9D731E365C7100D78367 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBB9D711E365C7100D78367 /* MainWindowController.swift */; };
+		8DBB9D741E365C7100D78367 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DBB9D721E365C7100D78367 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +21,9 @@
 		8D0D17031E35EFA40004738E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D0D17061E35EFA40004738E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		8D0D17081E35EFA40004738E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D0D170E1E35F10E0004738E /* NVRAMController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVRAMController.swift; sourceTree = "<group>"; };
+		8DBB9D711E365C7100D78367 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		8DBB9D721E365C7100D78367 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 				8D0D17031E35EFA40004738E /* Assets.xcassets */,
 				8D0D17051E35EFA40004738E /* MainMenu.xib */,
 				8D0D17081E35EFA40004738E /* Info.plist */,
+				8D0D170E1E35F10E0004738E /* NVRAMController.swift */,
+				8DBB9D711E365C7100D78367 /* MainWindowController.swift */,
+				8DBB9D721E365C7100D78367 /* MainWindowController.xib */,
 			);
 			path = NVRAMManager;
 			sourceTree = "<group>";
@@ -118,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D0D17041E35EFA40004738E /* Assets.xcassets in Resources */,
+				8DBB9D741E365C7100D78367 /* MainWindowController.xib in Resources */,
 				8D0D17071E35EFA40004738E /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,7 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D0D170F1E35F10E0004738E /* NVRAMController.swift in Sources */,
 				8D0D17021E35EFA40004738E /* AppDelegate.swift in Sources */,
+				8DBB9D731E365C7100D78367 /* MainWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +294,7 @@
 				8D0D170D1E35EFA40004738E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
